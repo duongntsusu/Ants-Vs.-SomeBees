@@ -1,8 +1,21 @@
-# Tower-defense-Game
-This project is an assignment from a pre-college summer program that I participated in the summer after my junior year at high school. 
-Some of the program's main features:
-+ Inspired by PopCap Games' Plants Vs. Zombies
-+ Using Object-oriented Programming paradigms like Class and Inheritance to define attributes and behaviors for the game's characters and settings
-+  Employing core game-building concepts
-Note: To start the graphical version of the game, run python3 gui.py
-After starting the graphical version, the game is usually available at http://127.0.0.1:31415/.
+1. Introduction:
+Ants Vs. SomeBees is a tower defense game inspired by Plants vs. Zombies, where players defend an ant colony from waves of invading bees using strategically placed ants with unique abilities. Built in Python using object-oriented programming principles, the project focuses on game logic, inheritance, polymorphism, and large-scale program design. Originally completed as part of UC Berkeley’s Data C88C course, the project involves extending and testing an existing codebase while implementing different ant behaviors, enemy interactions, and game mechanics.
+
+2. Gameplay: Each game consists of a sequence of turns:
+- Bees invade the colony tunnels
+- Players deploy ants to defend the colony
+- Ants perform actions such as:
++ Throwing leaves at bees
++ Collecting food
++ Protecting other ants
+- Bees advance through tunnels and sting ants in their way
+- The game ends when: A bee reaches the queen/ The QueenAnt is destroyed/All bees are defeated
+
+3. Project Structure
+- ants.py — Core game logic and insect behaviors
+- ants_plans.py — Difficulty configurations and attack waves
+- gui.py — Graphical user interface
+- ucb.py — Utility functions
+- tests/ — Automated tests
+- static/ — Game assets and images
+- templates/ — HTML templates used by the GUI
